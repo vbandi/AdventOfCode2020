@@ -27,6 +27,11 @@ namespace Utils
 
     public static class Utilities
     {
+        public static bool IsInRange(this int value, int min, int max)
+        {
+            return value >= min && value <= max;
+        }
+        
         public static IEnumerable<string> SplitAtChars(this string input, IEnumerable<char> chars)
         {
             if (input.Length == 0)
