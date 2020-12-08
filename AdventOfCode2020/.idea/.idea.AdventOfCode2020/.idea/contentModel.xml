@@ -84,6 +84,19 @@
         </e>
         <e p="Program.cs" t="Include" />
       </e>
+      <e p="Day7" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Day7.csproj" t="IncludeRecursive" />
+        <e p="Input.txt" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net472" t="Include">
+              <e p="Day7.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="Utils" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />

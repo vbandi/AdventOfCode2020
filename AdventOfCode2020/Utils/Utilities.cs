@@ -1,8 +1,11 @@
 ﻿using System;
+using System.CodeDom.Compiler;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
+using YamlDotNet.Serialization;
 
 namespace Utils
 {
@@ -70,5 +73,14 @@ namespace Utils
                 yield return input.Substring(index);
             }
         }
+
+        public static void Dump(this object o)
+        {
+            var stringBuilder = new StringBuilder();
+            var serializer = new Serializer();
+            serializer.Serialize(new IndentedTextWriter(new StringWriter(stringBuilder)), o);
+            Console.WriteLine(stringBuilder);
+        }
+
     }
 }
