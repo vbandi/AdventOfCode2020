@@ -9,6 +9,7 @@
     <projectFile>Day6/Day6.csproj</projectFile>
     <projectFile>Day7/Day7.csproj</projectFile>
     <projectFile>Day8/Day8.csproj</projectFile>
+    <projectFile>Day9/Day9.csproj</projectFile>
   </component>
   <component name="BranchesTreeState">
     <expand>
@@ -30,10 +31,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c87fac7-def1-4943-a938-d344b06f58d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day8/Handheld.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day8/Input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day9/Handheld.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day9/Input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode2020/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode2020/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode2020/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode2020/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode2020/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode2020/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AdventOfCode2020.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode2020.sln" afterDir="false" />
     </list>
@@ -49,6 +49,9 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Day8/Handheld.cs" />
       <option value="$PROJECT_DIR$/Day8/Program.cs" />
+      <option value="$PROJECT_DIR$/Day9/Handheld.cs" />
+      <option value="$PROJECT_DIR$/Day9/Input.txt" />
+      <option value="$PROJECT_DIR$/Day9/Program.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lACruJ7mSWg2MHqAbKxpYwj1EP" />
@@ -61,8 +64,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.35004777" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.2999045" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3498795" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -73,7 +76,7 @@
     <property name="settings.editor.selected.configurable" value="Inspections-C#" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.Day8">
+  <component name="RunManager" selected=".NET Project.Day9">
     <configuration name="Day1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -218,6 +221,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Day9" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Day9/Day9.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -236,7 +257,8 @@
       <workItem from="1607446337964" duration="272000" />
       <workItem from="1607446638246" duration="10000" />
       <workItem from="1607446802902" duration="24000" />
-      <workItem from="1607447023474" duration="2891000" />
+      <workItem from="1607447023474" duration="3714000" />
+      <workItem from="1607489134340" duration="3936000" />
     </task>
     <task id="LOCAL-00001" summary="Day 1">
       <created>1607032490871</created>
@@ -294,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607387274671</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Day 8">
+      <created>1607450238367</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607450238367</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,7 +352,8 @@
     <MESSAGE value="Day5" />
     <MESSAGE value="Day6" />
     <MESSAGE value="Day 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 7" />
+    <MESSAGE value="Day 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -353,6 +383,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Day9/Program.cs</url>
+          <line>103</line>
+          <properties documentPath="D:\Work\Projects\AdventOfCode2020\AdventOfCode2020\Day9\Program.cs" initialLine="103" containingFunctionPresentation="local function 'FindContinuousSetThatSumsUp3'">
+            <startOffsets>
+              <option value="2356" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2373" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
