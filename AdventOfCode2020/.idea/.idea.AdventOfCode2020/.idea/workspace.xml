@@ -10,6 +10,10 @@
     <projectFile>Day7/Day7.csproj</projectFile>
     <projectFile>Day8/Day8.csproj</projectFile>
     <projectFile>Day9/Day9.csproj</projectFile>
+    <projectFile>Day10/Day10.csproj</projectFile>
+    <projectFile>Day11/Day11.csproj</projectFile>
+    <projectFile>Day12/Day12.csproj</projectFile>
+    <projectFile>Day13/Day13.csproj</projectFile>
   </component>
   <component name="BranchesTreeState">
     <expand>
@@ -31,8 +35,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c87fac7-def1-4943-a938-d344b06f58d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day9/Handheld.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day9/Input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day10/Input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day11/Input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day12/Input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day13/Input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode2020/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode2020/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AdventOfCode2020/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AdventOfCode2020/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AdventOfCode2020.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode2020.sln" afterDir="false" />
@@ -43,15 +49,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Day8/Handheld.cs" />
-      <option value="$PROJECT_DIR$/Day8/Program.cs" />
-      <option value="$PROJECT_DIR$/Day9/Handheld.cs" />
-      <option value="$PROJECT_DIR$/Day9/Input.txt" />
-      <option value="$PROJECT_DIR$/Day9/Program.cs" />
+      <option value="$PROJECT_DIR$/Day10/Input.txt" />
+      <option value="$PROJECT_DIR$/Day10/Program.cs" />
+      <option value="$PROJECT_DIR$/Day11/Program.cs" />
+      <option value="$PROJECT_DIR$/Day11/Input.txt" />
+      <option value="$PROJECT_DIR$/Day12/Input.txt" />
+      <option value="$PROJECT_DIR$/Day12/Program.cs" />
+      <option value="$PROJECT_DIR$/Day13/Input.txt" />
+      <option value="$PROJECT_DIR$/Day13/Program.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lACruJ7mSWg2MHqAbKxpYwj1EP" />
@@ -64,9 +84,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3498795" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34983018" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -76,7 +97,7 @@
     <property name="settings.editor.selected.configurable" value="Inspections-C#" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.Day9">
+  <component name="RunManager" selected=".NET Project.Day13">
     <configuration name="Day1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -86,6 +107,78 @@
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/Day1/Day1.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Day10" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Day10/Day10.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Day11" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Day11/Day11.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Day12" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Day12/Day12.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Day13" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Day13/Day13.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -258,7 +351,11 @@
       <workItem from="1607446638246" duration="10000" />
       <workItem from="1607446802902" duration="24000" />
       <workItem from="1607447023474" duration="3714000" />
-      <workItem from="1607489134340" duration="3936000" />
+      <workItem from="1607489134340" duration="4111000" />
+      <workItem from="1607493350992" duration="388000" />
+      <workItem from="1608046201775" duration="150000" />
+      <workItem from="1608399436794" duration="3849000" />
+      <workItem from="1608998739540" duration="12344000" />
     </task>
     <task id="LOCAL-00001" summary="Day 1">
       <created>1607032490871</created>
@@ -323,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607450238367</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Day 9">
+      <created>1607493247507</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607493247507</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +457,8 @@
     <MESSAGE value="Day6" />
     <MESSAGE value="Day 7" />
     <MESSAGE value="Day 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 8" />
+    <MESSAGE value="Day 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -385,19 +490,40 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Day9/Program.cs</url>
-          <line>103</line>
-          <properties documentPath="D:\Work\Projects\AdventOfCode2020\AdventOfCode2020\Day9\Program.cs" initialLine="103" containingFunctionPresentation="local function 'FindContinuousSetThatSumsUp3'">
+          <url>file://$PROJECT_DIR$/Day11/Program.cs</url>
+          <line>29</line>
+          <properties documentPath="D:\Work\Projects\AdventOfCode2020\AdventOfCode2020\Day11\Program.cs" initialLine="27">
             <startOffsets>
-              <option value="2356" />
+              <option value="640" />
             </startOffsets>
             <endOffsets>
-              <option value="2373" />
+              <option value="641" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Day13/Program.cs</url>
+          <line>33</line>
+          <properties documentPath="D:\Work\Projects\AdventOfCode2020\AdventOfCode2020\Day13\Program.cs" initialLine="31">
+            <startOffsets>
+              <option value="1226" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1247" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <inline-watch fileUrl="file://$PROJECT_DIR$/Day13/Program.cs" line="55">
+        <watch expression="schedule[j]" />
+      </inline-watch>
+      <inline-watch fileUrl="file://$PROJECT_DIR$/Day11/Program.cs" line="104">
+        <watch expression="result" />
+      </inline-watch>
+    </watches-manager>
   </component>
 </project>
